@@ -1,0 +1,13 @@
+{
+  "SelectedConfigId": "",
+  "EmbeddedControllerType": "dev_port",
+  "FanTemperatureSources": [
+    {
+      "FanIndex": 0,
+      "TemperatureAlgorithmType": "Max",
+      "Sensors": [
+        "coretemp"
+      ]
+    }
+  ]
+}
