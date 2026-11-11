@@ -15,6 +15,8 @@ dnf -y remove \
     openrgb-udev-rules \
     ScopeBuddy \
     tailscale \
+    tuned \
+    tuned-ppd \
     webapp-manager
 
 dnf install -y --allowerasing \
@@ -24,6 +26,7 @@ dnf install -y --allowerasing \
 
 dnf install -y \
     https://github.com/nbfc-linux/nbfc-linux/releases/download/0.5.4/fedora-44-nbfc-linux-0.5.4-1.x86_64.rpm \
+    power-profiles-daemon \
     testdisk \
     qphotorec
 
