@@ -18,3 +18,6 @@ dnf -y remove \
     webapp-manager
 
 systemctl enable podman.socket
+systemctl mask avahi-daemon.socket
+systemctl mask avahi-daemon.service
+systemctl enable systemd-resolved.service
